@@ -11,6 +11,9 @@
 		49D2629029285B6200F94ED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2628F29285B6200F94ED8 /* ContentView.swift */; };
 		49D2629229285B6400F94ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D2629129285B6400F94ED8 /* Assets.xcassets */; };
 		49D2629529285B6400F94ED8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D2629429285B6400F94ED8 /* Preview Assets.xcassets */; };
+		49D2629D2928730B00F94ED8 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2629C2928730B00F94ED8 /* Renderer.swift */; };
+		49D2629F29287DD000F94ED8 /* HighlightedQRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2629E29287DD000F94ED8 /* HighlightedQRCodeView.swift */; };
+		49D262A1292880BB00F94ED8 /* Metal_SwiftUICompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D262A0292880BB00F94ED8 /* Metal_SwiftUICompatible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		49D2628F29285B6200F94ED8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49D2629129285B6400F94ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D2629429285B6400F94ED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49D2629C2928730B00F94ED8 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		49D2629E29287DD000F94ED8 /* HighlightedQRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightedQRCodeView.swift; sourceTree = "<group>"; };
+		49D262A0292880BB00F94ED8 /* Metal_SwiftUICompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_SwiftUICompatible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			children = (
 				49D2628D29285B6200F94ED8 /* QROnlyHighLightApp.swift */,
 				49D2628F29285B6200F94ED8 /* ContentView.swift */,
+				49D2629B292872F800F94ED8 /* EDR QR */,
 				49D2629129285B6400F94ED8 /* Assets.xcassets */,
 				49D2629329285B6400F94ED8 /* Preview Content */,
 			);
@@ -65,6 +72,16 @@
 				49D2629429285B6400F94ED8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49D2629B292872F800F94ED8 /* EDR QR */ = {
+			isa = PBXGroup;
+			children = (
+				49D2629C2928730B00F94ED8 /* Renderer.swift */,
+				49D2629E29287DD000F94ED8 /* HighlightedQRCodeView.swift */,
+				49D262A0292880BB00F94ED8 /* Metal_SwiftUICompatible.swift */,
+			);
+			path = "EDR QR";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D2629D2928730B00F94ED8 /* Renderer.swift in Sources */,
+				49D2629F29287DD000F94ED8 /* HighlightedQRCodeView.swift in Sources */,
+				49D262A1292880BB00F94ED8 /* Metal_SwiftUICompatible.swift in Sources */,
 				49D2629029285B6200F94ED8 /* ContentView.swift in Sources */,
 				49D2628E29285B6200F94ED8 /* QROnlyHighLightApp.swift in Sources */,
 			);
